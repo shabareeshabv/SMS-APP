@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SMS APP</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Include Bootstrap CSS -->
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="path/to/bootstrap.min.css">
+    <link rel="stylesheet" href="sms.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a href="#" class="navbar-brand">SMS APP</a>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h3>SMS app</h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <textarea maxlength="100" id="text-area" rows="4" class="form-control" placeholder="Text here"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                        <h3>The characters remaining: <span class="font-weight-bold text-primary" id='char-count'>0</span>/100</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="sms.js"></script>
+    <!-- Link to Bootstrap JS (if needed) -->
+    <script src="path/to/bootstrap.min.js"></script>
+</body>
+</html>
